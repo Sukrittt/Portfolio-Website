@@ -1,0 +1,112 @@
+::selection{
+	background-color:rosybrown;
+}
+h3,h4{
+	color:brown;
+	font-family:sans-serif
+}
+.devansh a {
+	font-family: sans-serif;
+}
+.edit{
+	padding: 20px;
+	background-color:#f2f2f2;
+}
+body {
+	margin: 30px 100px;
+	border: 2px solid grey;
+	border-radius: 4px;
+	background-image: url(bg.jpg);
+	background-attachment: fixed;
+}
+fieldset>pre{
+	font-family:sans-serif;
+}
+fieldset{
+	border-radius:4px;
+}
+legend{
+	color:brown;
+}
+h2{
+	font-family:sans-serif
+}
+header>p{
+	text-align:left
+}
+footer>p{
+	text-align:left
+}
+*{
+	text-align:left
+}
+.laptop{
+	text-align:left
+}
+.devansh{
+	color:black;
+	font-family:sans-serif;
+}
+h2,h3,h4{
+	font-size: 30px
+}
+a{
+	color:black;
+}
+a{
+	text-decoration:none
+}
+a:hover{
+	text-decoration:none
+}
+a:hover {
+	color: #ABA8A5
+}
+a {
+	font-size: large
+}
+p{
+	font-family:open sans-serif
+}
+p{
+	font-size:large
+}
+p{
+	text-align:center
+}
+.edit{
+	text-align:center
+}	
+a{
+	text-align:center
+}
+pre{
+	font-family:sans-serif
+}
+p{
+	word-spacing:3px
+}
+pre{
+	font-size:large
+}
+pre{
+	color:brown
+}
+.sp {
+	color: #494949
+}
+.sp{
+	font-family:Roboto
+}
+.sp{
+	font-size:18px
+}
+.hi {
+	font-family: Nunito
+}
+h2{
+	font-weight:900
+}
+p{
+	line-height:1.5
+}
