@@ -18,6 +18,7 @@ body {
 	border-radius: 4px;
 	background-image: url(bg.jpg);
 	background-attachment: fixed;
+	
 }
 fieldset>pre{
 	font-family:sans-serif;
@@ -33,6 +34,10 @@ h2{
 }
 header>p{
 	text-align:left
+}
+header>p>a{
+	text-decoration: underline;
+	text-decoration-color:rgb(46, 38, 38);
 }
 footer>p{
 	text-align:left
