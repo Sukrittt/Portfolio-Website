@@ -81,6 +81,7 @@ p{
 }
 .edit{
 	text-align:center
+
 }	
 a{
 	text-align:center
@@ -123,7 +124,9 @@ p{
 
 
 
-
+.edit{
+	box-shadow: 2px 2px 450px 6px black;
+}
 
 .container .text{
 	position: relative;
