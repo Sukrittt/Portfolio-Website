@@ -41,8 +41,9 @@ a:hover{
 	text-decoration:none;
 }
 a{
-	text-decoration:none
+	text-decoration:none;
 }
+
 *{
 	font-family:sans-serif
 }
@@ -73,3 +74,5 @@ ul{
 ol{
 	line-height:1.5
 }
+
+

@@ -18,6 +18,7 @@ body {
 	border-radius: 4px;
 	background-image: url(bg.jpg);
 	background-attachment: fixed;
+	
 }
 fieldset>pre{
 	font-family:sans-serif;
@@ -33,6 +34,10 @@ h2{
 }
 header>p{
 	text-align:left
+}
+header>p>a{
+	text-decoration: underline;
+	text-decoration-color:rgb(46, 38, 38);
 }
 footer>p{
 	text-align:left
@@ -76,6 +81,7 @@ p{
 }
 .edit{
 	text-align:center
+
 }	
 a{
 	text-align:center
@@ -110,3 +116,46 @@ h2{
 p{
 	line-height:1.5
 }
+
+
+
+
+
+
+
+
+.edit{
+	box-shadow: 2px 2px 450px 6px black;
+}
+
+.container .text{
+	position: relative;
+}
+.text.first-letter{
+color: black;
+
+
+}
+.text.second-letter::before{
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+width: 100%;
+background-color: #f2f2f2;
+border-left:2px solid  rgb(0, 0, 0) ;
+animation:textmoving 4s steps(12) infinite;
+}
+@keyframes textmoving{
+	40%, 60%{
+		left: 100%;
+	}
+	100%{
+		left: 0%;
+	}
+}
+
+
+
+
